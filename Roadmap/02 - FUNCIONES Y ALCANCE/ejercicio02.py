@@ -109,7 +109,6 @@ def extra_func(arg1: str, arg2:str) -> int:
         else:
             acumulador += 1
             print(i)
-    print(f'Se han mostrado {acumulador} números')
     return acumulador
 
-extra_func('Python', 'Java')
+print(f'Se han mostrado {extra_func("Java", "Python")} números')
